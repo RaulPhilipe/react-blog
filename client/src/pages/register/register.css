@@ -1,0 +1,78 @@
+.register{
+   height: calc(100vh - 50px);
+   display: flex;
+   flex-direction: column; 
+   align-items: center;
+   font-family: 'Lato', sans-serif;
+   justify-content: center;
+}
+
+.registerTitle{
+    font-size: 60px;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.registerForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.registerForm > label{
+    margin: 10px 0px 10px 0px;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.registerInput{
+    padding: 15px 10px 0px 5px;
+    font-size: 18px;
+    background-color: white;
+    border: none;
+    border-bottom: 2px solid #D3D3D3;
+    font-family: 'Crimson Pro', serif;
+}
+
+.registerInput:focus{
+    outline: none;
+    border-bottom: 2px solid #000;
+}
+
+.registerButton{
+   margin-top: 20px;
+   cursor: pointer;
+   background-color: #009090; 
+   border: none;
+   color: white;
+   border-radius: 10px;
+   padding: 10px;
+   font-family: 'Lato', sans-serif;
+   font-size: 18px;
+}
+
+.registerButton:hover{
+    transition: all .3s ease-in-out;
+    transform: scale(1.1);
+    background-color: #007070;
+}
+
+.registerLoginButton{
+    position: absolute;
+    top: 80px;
+    right: 20px;
+    background-color: #1e90ff;
+    cursor: pointer;
+    border: none;
+    padding: 10px 15px 10px 15px;
+    color: white;
+    border-radius: 10px;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+}
+
+.registerLoginButton:hover{
+    transition: all .3s ease-in-out;
+    transform: scale(1.1);
+    background-color: #2e70ff;
+}

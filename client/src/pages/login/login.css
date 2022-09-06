@@ -1,0 +1,88 @@
+.login{
+   height: calc(100vh - 50px);
+   display: flex;
+   flex-direction: column; 
+   align-items: center;
+   justify-content: center;
+   font-family: 'Lato', sans-serif;
+}
+
+.loginTitle{
+    font-size: 60px;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.loginForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.loginForm > label{
+    margin: 10px 0px 10px 0px;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.loginInput{
+    padding: 15px 10px 0px 5px;
+    font-size: 18px;
+    background-color: white;
+    border: none;
+    font-family: 'Crimson Pro', serif;
+    border-bottom: 2px solid #D3D3D3;
+}
+
+.loginInput:focus{
+    outline: none;
+    border-bottom: 2px solid #000;
+}
+
+.loginButton{
+   margin-top: 20px;
+   cursor: pointer;
+   background-color: #1e90ff; 
+   border: none;
+   color: white;
+   border-radius: 10px;
+   padding: 10px;
+   font-family: 'Lato', sans-serif;
+   font-size: 18px;
+}
+
+.loginButton:disabled{
+    cursor: not-allowed;
+    background-color: rgb(235, 137, 137);
+}
+
+.loginButton:disabled:hover{
+    transition: all .3s ease-in-out;
+    transform: scale(1.1);
+}
+
+.loginButton:enabled:hover {
+    transition: all .3s ease-in-out;
+    transform: scale(1.1);
+    background-color: #2e70ff;
+}
+
+.loginRegisterButton{
+    position: absolute;
+    top: 80px;
+    right: 20px;
+    background-color: #009090;
+    cursor: pointer;
+    border: none;
+    padding: 10px 15px 10px 15px;
+    color: #fff;
+    border-radius: 10px;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+}
+
+.loginRegisterButton:hover{
+    transition: all .3s ease-in-out;
+    transform: scale(1.1);
+    background-color: #007070;
+}

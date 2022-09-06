@@ -1,0 +1,122 @@
+.singlePost {
+    flex: 9;
+}
+
+.singlePostWrapper{
+    padding: 20px;
+    padding-right: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.singlePostImg{
+    width: 100%;
+    height: 300px;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.singlePostTitle{
+    text-align: center;
+    margin: 10px;
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+    font-size: 30px;
+}
+
+.singlePostTitleInput {
+    margin: 10px;
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+    font-size: 28px;
+    text-align: center;
+    border: none;
+    color: #808080;
+    border-bottom: 1px solid #D3D3D3;
+}
+
+.singlePostTitleInput:focus{
+    outline: none;
+}
+
+.singlePostEdit{
+    float: right;
+    font-size: 16px;
+}
+
+.singlePostIcon{
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.singlePostIcon:hover{
+    transition: all .3s ease-in-out;
+    transform: scale(1.2);
+}
+
+.singlePostIcon:first-child{
+    color: teal;
+}
+
+.singlePostIcon:last-child{
+    color: #FF0000;
+}
+
+.singlePostInfo{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    color: #1e90ff;
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+}
+
+.singlePostDesc{
+    color: #000;
+    font-size: 18px;
+    line-height: 25px;
+    font-family: 'Crimson Pro', serif;
+    width: 90%;
+    text-align: justify;
+    align-self: center;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+}
+
+.singlePostDesc::first-letter{
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.singlePostDescInput{
+    border: none;
+    color: #666;
+    font-size: 18px;
+    line-height: 25px;
+    font-family: 'Crimson Pro', serif;
+}
+
+.singlePostDescInput:focus{
+    outline: none;
+}
+
+.singlePostButton{
+    width: 100px;
+    height: 40px;
+    border: none;
+    background-color: #1e90ff;
+    padding: 5px;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    align-self: flex-end;
+    margin-top: 20px;
+}
+
+.singlePostButton:hover{
+    transition: all .3s ease-in-out;
+    transform: scale(1.1);
+    background-color: #2e70ff;
+}
